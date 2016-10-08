@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="a7negreene.gmail.com.workoutapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".screen2"> </activity>
+        <activity android:name=".monday_activity"
+            android:label="Monday"></activity>
+        <activity android:name=".tuesday_activity"
+            android:label="Tuesday"></activity>
+        <activity android:name=".wednesday_activity"
+           android:label="Wednesday" ></activity>
+        <activity android:name=".thursday_activity"
+            android:label="Thursday"></activity>
+        <activity android:name=".friday_activity"
+            android:label="Friday"></activity>
+        <activity android:name=".saturday_activity"
+            android:label="Saturday"></activity>
+
+    </application>
+
+</manifest>
